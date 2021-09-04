@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/randomCard"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="2dp"
@@ -34,24 +35,27 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="랜덤으로번호생성"
+                    android:fontFamily="sans-serif-black"
+                    android:text="랜덤 추첨"
                     android:textSize="24sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="랜덤으로번호를생성합니다" />
+                    android:text="랜덤으로 번호를 생성합니다" />
             </LinearLayout>
 
             <ImageView
+                android:id="@+id/imageview11"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
                 android:layout_marginStart="5dp"
-                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+                android:src="@drawable/main_random_image" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/constellationCard"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="2dp"
@@ -78,24 +82,27 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="랜덤으로번호생성"
+                    android:fontFamily="sans-serif-black"
+                    android:text="별자리 추첨"
                     android:textSize="24sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="랜덤으로번호를생성합니다" />
+                    android:text="별자리로 번호를 생성합니다" />
             </LinearLayout>
 
             <ImageView
+                android:id="@+id/imageview12"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
                 android:layout_marginStart="5dp"
-                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+                android:src="@drawable/main_constellation_image" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/nameCard"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="2dp"
@@ -123,22 +130,25 @@
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="랜덤으로번호생성"
+                    android:fontFamily="sans-serif-black"
+                    android:text="이름 추첨"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="랜덤으로번호를생성합니다" />
+                    android:text="이름으로 번호를 생성합니다" />
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imageview13"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
                 android:layout_marginStart="5dp"
-                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+                android:paddingLeft="40sp"
+                android:paddingTop="40sp"
+                android:src="@drawable/main_name_image" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </LinearLayout>

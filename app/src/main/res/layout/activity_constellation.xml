@@ -13,31 +13,39 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_margin="16dp"
-        android:text="Button" />
+        android:text="번 호 생 성" />
 
     <DatePicker
         android:id="@+id/datePicker"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
         android:calendarViewShown="false"
         android:datePickerMode="spinner" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageview13"
         android:layout_width="120dp"
         android:layout_height="match_parent"
         android:layout_above="@+id/goResultButton"
         android:layout_below="@id/datePicker"
-        android:layout_margin="16dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/constellation" />
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/constellationTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@id/imageView"
-        android:layout_alignBottom="@id/imageView"
+        android:layout_alignTop="@id/imageview13"
+        android:layout_alignBottom="@id/imageview13"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="32dp"
-        android:layout_toRightOf="@id/imageView"
+        android:layout_toRightOf="@id/imageview13"
         android:gravity="center"
         android:maxLines="1"
         android:text="쌍둥이자리"

@@ -7,4 +7,27 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary"></color>
+    <color name="colorPrimaryDark"></color>
+    <color name="colorPrimaryAccent">#FF000000</color>
+
+    <!--    결과 화면 컬러-->
+    <color name="ColorPrimaryResult">#FFC81E</color>
+    <color name="colorPrimaryDarkResult">#0A9696</color>
+    <color name="colorPrimaryAccentResult">#FF3700B3</color>
+
+    <!--    별자리 입력화면 컬러-->
+    <color name="colorPrimaryConstellation">#FF6200EE</color>
+    <color name="colorPrimaryDarkConstellation">#FFBB86FC</color>
+    <color name="colorPrimaryAccentConstellation">#FF3700B3</color>
+    <color name="colorPrimaryContentConstellation">#FF03DAC5</color>
+    <color name="colorPrimaryButtonConstellation">#FF018786</color>
+
+    <!--이름 입력화면에서 사용할 컬러-->
+    <color name="colorPrimaryName">#FF000000</color>
+    <color name="colorPrimaryDarkName">#1EDDFF</color>
+    <color name="colorPrimaryAccentName">#FF000000</color>
+    <color name="colorPrimaryContentName">#0A6E0A</color>
+    <color name="colorPrimaryButtonName">#1EDDFF</color>
 </resources>

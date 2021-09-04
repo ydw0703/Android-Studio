@@ -21,14 +21,14 @@
         app:layout_constraintGuide_percent="0.6" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView22"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:src="@drawable/name_wirte"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline3"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <EditText
         android:id="@+id/editText"
